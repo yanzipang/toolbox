@@ -36,7 +36,7 @@ public final class PaginationUtil {
 
 	/**
 	 * 分页返回结果的map中key的枚举
-	 * {@link #paginationSorting(int, int, List, Comparator)}
+	 * @see PaginationUtil#paginationSorting(java.lang.Integer, java.lang.Integer, java.util.List, java.util.Comparator)
 	 */
 	@AllArgsConstructor
 	@Getter
@@ -65,7 +65,7 @@ public final class PaginationUtil {
 	 * 			{totalCount = 100, pageNo = 1, pageSize = 10, totalPage = 10, list = [{}, {}... ]}
 	 */
 	@Nullable
-	public static <T> Map<String, Object> paginationSorting(Integer pageNo, Integer pageSize, @NonNull List<T> list, @Nullable Comparator<? super T> comparator) {
+	public static <T> Map<String, Object> paginationSorting(int pageNo, int pageSize, @NonNull List<T> list, @Nullable Comparator<? super T> comparator) {
 
 		if (list.isEmpty()) {
 			return null;
