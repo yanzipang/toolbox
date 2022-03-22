@@ -10,8 +10,19 @@
     <modules>
         <module>ToolBox-Utils</module>
         <module>ToolBox-Model</module>
+        <module>ToolBox-Cache</module>
     </modules>
     <packaging>pom</packaging>
+
+    <!-- 统一管理jar包版本 -->
+    <properties>
+
+    </properties>
+
+    <!-- 公共依赖 -->
+    <dependencies>
+
+    </dependencies>
 
     <build>
         <plugins>

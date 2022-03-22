@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ToolBox-Utils" />
+        <module name="ToolBox-Cache" />
         <module name="ToolBox-Model" />
       </profile>
     </annotationProcessing>
